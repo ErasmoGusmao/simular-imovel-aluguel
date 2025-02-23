@@ -1,0 +1,31 @@
+# Arquivos Excel
+*.xlsx
+*.xls
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+.env/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos de distribuição/build
+dist/
+build/
+*.egg-info/
