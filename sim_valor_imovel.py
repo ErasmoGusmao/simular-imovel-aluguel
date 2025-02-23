@@ -59,11 +59,10 @@ for taxa in [taxa_min_mensal, taxa_media_mensal, taxa_max_mensal]:
             valor_total_imovel = entrada + valor_financiado
             resultados.append({
                 "Valor do Aluguel Simulado (R$)": round(aluguel, 2),
-                "IPTU Simulado (R$)": round(iptu_mensal, 2),
+                "IPTU anual Simulado (R$)": round(iptu_anual, 2),
                 "Condomínio Simulado (R$)": round(condominio, 2),
                 "Entrada Simulada (R$)": round(entrada, 2),
-                "|": "|",
-                "Taxa Anual (%)": round(calcula_taxa_anual(taxa), 2),
+                "Taxa efetiva Anual": f"{round(calcula_taxa_anual(taxa), 2)}%",
                 "Prazo (Anos)": prazo,
                 "Valor Financiado Máximo (R$)": round(valor_financiado, 2),
                 "Valor Total Máximo do Imóvel (R$)": round(valor_total_imovel, 2)
